@@ -1,0 +1,12 @@
+.homecard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10%;
+}
+.homecard--card {
+  margin-left: 1.5%;
+   width: 25rem;
+  height: 25rem;
+  background-color: rgba(1,1,1,0.2);
+}

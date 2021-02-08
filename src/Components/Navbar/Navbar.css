@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Roboto:wght@300;400;700;900&display=swap');
+
+
+.navbar{
+    /* background-color: #F6CAF2; */
+    background-color: rgba(255,255,255,0.1);
+
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+  }
+
+
+.logo{
+    font-family: 'Kavoon', cursive;
+    background-color:#ff3f3f;
+    opacity: 0.8;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 0.8em;
+    margin-left: 4rem;
+    margin-top:0.7rem;
+}
+.link{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    margin-left:5rem;
+    
+}
+.form{
+    margin-left:5rem;
+
+    
+}
+
+.links{
+    margin-left:auto;
+}

@@ -1,0 +1,70 @@
+.signIn {
+  background-image: url(../../images/stethoscopebg.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signIn__heading {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  
+}
+.signIn__heading > h1 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #FF004E;
+ text-shadow: 1px 1px black;
+
+}
+
+.signIn__card {
+  background-color: rgb(1, 1, 1, 0.8);
+  height: 50vh;
+  width: 40%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color:white;
+  border-radius: 10px;
+  
+
+}
+
+.signIn__button {
+  background-image: linear-gradient(to right bottom, #ff004e, #ff353f, #ff5030, #fd671f, #f87b09);
+   padding:15px 45px;
+  color: white;
+  font-weight: bold;
+  width:400px;
+  border:none;
+  outline: 0 !important;
+  border-radius: 100px;
+  margin-top:15%;
+  
+}
+
+.signIn__button:hover{
+  box-shadow:1px 1px 1.5px 1.5px black;
+  cursor: pointer;
+}
+
+.signIn__cardtitle{
+  /* background-color: rgba(248,123,9); */
+  background-color: rgba(255,255,255,0.2);
+
+  /* background-color: #FF004E; */
+  /* opacity: 0.5; */
+  padding:10px 30px;
+  width:100%;
+   text-align: center;
+   border-radius: 10px;
+   border-bottom: 1px solid #FF004E;
+
+}

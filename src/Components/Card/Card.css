@@ -1,0 +1,46 @@
+.card-main{
+    width: 200%;
+    height:100%;
+    max-width: 100%;
+    box-shadow:0.2rem 0.2rem 0.2rem 0.2rem black;
+    background-color: whitesmoke;
+    margin-top:10%;
+    padding:2% 6%;
+    border-radius: 10px;
+
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.sub-title{
+    text-align: center;   
+}
+
+
+.about-links{
+    display:flex;
+    justify-content: center;
+    margin-left: -10%;
+    
+    
+}
+
+.about-link{
+    background-color:#ff3f3f; 
+    opacity: 0.8;
+    border-radius: 10px;
+    padding:10px 30px;
+    color:white;
+    text-decoration: none;
+    margin-left:10%;
+    
+}
+
+.about-link:hover{
+   background-color: rgba(114, 4, 4,0.6);
+   color:white;
+   text-decoration: none;
+}
